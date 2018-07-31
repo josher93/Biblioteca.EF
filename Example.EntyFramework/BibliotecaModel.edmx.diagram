@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="30d44bc69e0545bd8dfe2ed5d1327138" Name="Diagram1">
+        <EntityTypeShape EntityType="BibliotecaModel.Autor" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.Estudiante" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.Libro" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.LibAut" Width="1.5" PointX="3" PointY="5.375" />
+        <EntityTypeShape EntityType="BibliotecaModel.Prestamo" Width="1.5" PointX="5" PointY="2" />
+        <AssociationConnector Association="BibliotecaModel.FK__LibAut__IdLibro__412EB0B6" />
+        <AssociationConnector Association="BibliotecaModel.FK__Prestamo__Devuel__3E52440B" />
+        <AssociationConnector Association="BibliotecaModel.FK__LibAut__IdLibro__4222D4EF" />
+        <AssociationConnector Association="BibliotecaModel.FK__Prestamo__IdLibr__3F466844" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
